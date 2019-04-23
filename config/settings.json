@@ -4,7 +4,7 @@
   "autoCloseNotif": true,
   "notifTimer": 2000,
   "highlighting": true,
-  "highlightColor": "#5ffe36",
+  "highlightColor": "#f143c1",
   "displayTooltip": false,
   "devmode": true
 }

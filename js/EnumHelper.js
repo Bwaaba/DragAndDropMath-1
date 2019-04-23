@@ -30,6 +30,11 @@ const EnumHelper = {
 			'type':'GET',
 			'dataType':'html'
 		},
+		'TEST':{
+			'url':'./html/test.html',
+			'type':'GET',
+			'dataType':'html'
+		},
 		'GAMESTATE':{
 			'url':'http://localhost:8080/LibreDragon/api/gamestate',
 			'type':'GET',
