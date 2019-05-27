@@ -20,6 +20,11 @@ const EnumHelper = {
 			'type':'GET',
 			'dataType':'html'
 		},
+		'NEWMODE':{
+			'url':'./html/newMode.html',
+			'type':'GET',
+			'dataType':'html'
+		},
 		'GAMEMODE':{
 			'url':'./html/gamemode.html',
 			'type':'GET',
@@ -27,11 +32,6 @@ const EnumHelper = {
 		},
 		'GAMERULESET':{
 			'url':'./html/gameruleset.html',
-			'type':'GET',
-			'dataType':'html'
-		},
-		'TEST':{
-			'url':'./html/test.html',
 			'type':'GET',
 			'dataType':'html'
 		},
