@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<div class="col-md-12">
+			<!-- Titre -->
+			<div class="page-header">
+				<h1 class="display-2"><i class="fa fa-question" aria-hidden="true"></i> Aide</h1>
+				<hr/>
+			</div>
+			<div class="col-md-12">
+				<div>
+					<button class="sidebar-bg-color sidebar-not-a-button text-success" disabled>
+						<i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i>
+					</button>
+					- Indique le statut du server vert = en ligne, rouge = hors ligne.
+				</div>
+				<br/>
+				<div>
+					<button class="sidebar-bg-color sidebar-button" disabled>
+						<i class="fa fa-home" aria-hidden="true"></i>
+					</button>
+					- Ce bouton charge la page d'accueil.
+				</div>
+				<br/>
+				<div>
+					<button class="sidebar-bg-color sidebar-button" disabled>
+						$f(x)$
+					</button>
+					- Ce bouton charge l'interface de jeu et vous permet de commencer à jouer.
+					<br/>
+					<br/>
+					<div class="tabulation">
+						<button class="toolbar-bg-color sidebar-button" disabled>
+							<i class="fa fa-list" aria-hidden="true"></i>
+						</button>
+						- Ce bouton affiche la liste des parties en cours, si aucune partie n'est lancé affiche rien.
+					</div>
+					<br/>
+					<div class="tabulation">
+						<button class="toolbar-bg-color sidebar-button" disabled>
+							<i class="fa fa-plus" aria-hidden="true"></i>
+						</button>
+						- Ce bouton permet de créer une nouvelle partie.
+					</div>
+					<br/>
+					<div class="tabulation">
+						<button class="toolbar-bg-color sidebar-button" disabled>
+							<i class="fa fa-trash" aria-hidden="true"></i>
+						</button>
+						- Ce bouton permet de supprimer la partie en cours.
+					</div>
+					<br/>
+					<div class="tabulation">
+						<button class="toolbar-bg-color sidebar-button" disabled>
+							<i class="fa fa-refresh" aria-hidden="true"></i>
+						</button>
+						- Ce bouton permet de synchronizer le client avec le serveur.
+					</div>
+					<br/>
+					<div class="tabulation">
+						<button class="toolbar-bg-color sidebar-button" disabled>
+							<i class="fa fa-undo" aria-hidden="true"></i>
+						</button>
+						- Ce bouton permet de recommencer la partie en cours.
+					</div>
+					<br/>
+					<div class="tabulation">
+						<button class="toolbar-bg-color sidebar-button" disabled>
+							<i class="fa fa-chevron-left" aria-hidden="true"></i>
+						</button>
+						- Ce bouton permet de revenir en arrière.
+					</div>
+					<br/>
+					<div class="tabulation">
+						<button class="toolbar-bg-color sidebar-button" disabled>
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>
+						</button>
+						- Ce bouton permet d'aller en avant.
+					</div>
+					<br/>
+					<div class="tabulation">
+						<button class="toolbar-bg-color sidebar-button" disabled>
+							<i class="fa fa-book" aria-hidden="true"></i>
+						</button>
+						- Ce bouton affiche les liste des règles disponible pour la partie en cours.
+					</div>
+					<br/>
+					<div class="tabulation">
+						<button class="toolbar-bg-color sidebar-not-a-button" disabled>
+							<i class="fa fa-hourglass-half" aria-hidden="true"></i>
+						</button>
+						- Affiche just le temps qu'il vous reste pour résoudre la formule.
+					</div>
+					<br/>
+					<div class="tabulation">
+						<h5>Timeline</h5>
+						La timeline contient tous les états de la partie, du début à l'état actuel, l'état réprésenté en rouge est l'état actuel, ceux à gauche de l'état rouge sont les précédent, ceux à droite sont les suivants. Cliquer sur l'un de ces états va vous placer sur l'état sur lequel vous avez cliquer. Si vous n'êtes pas sur le dernier état dans la liste et que vous effectuer une action (appliquer une règles) tout les états suivant seront perdu.<br/><br/>
+						<a class="btn-red" disabled><i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i></a>
+						<a class="btn-yellow" disabled><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+						- Ces boutons permettent d'afficher/cacher la timeline.<br/><br/>
+						<a class="btn-green" disabled><i class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
+						- Ce bouton vous permet de passer en mode 'théorème' dans ce mode cliquer sur les éléments de la timeline les sélectionnera pour la création d'un théorème.<br/><br/>
+						<a class="btn-green" disabled><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></a>
+						- Ce bouton vous permet de valider la création d'un théorème, pour créer un théorème vous devez sélectionner 2 éléments dans la timeline, une fois sléctionner cliquer sur ce bouton fera apparaître une popup vous demandant la confirmation, une fois confirmer le théorème sera créer.<br/><br/>
+						<a class="btn-red" disabled><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
+						- Ce bouton vous permet d'annuler la création d'un théorème de revenir en mode 'normal'.
+					</div>
+					<br/>
+					<div class="tabulation">
+						<h5>Fonctionnement du jeu</h5>
+						Si vous êtes en mode NORMAL vous avez un certain temps pour finir la partie. Si vous êtes en mode SANDBOX vous n'avez aucune limitation (il n'y a pas de victoire).<br/>
+						Pour apliquer une règle à la formule faite clique droit sur une partie de la formule, un menu va apparaître vous affichant toutes les règles qui sont applicable à l'élément sélectionner. Cliquer (clique gauche) sur l'une des ces règles pour l'appliquer à la formule. Si vous voulez fermer ce menu fait clique droit ou gauche ailleur sur l'écran.
+					</div>
+					<br/>
+				</div>
+				<br/>
+				<div>
+					<button class="sidebar-bg-color sidebar-button" disabled>
+						<i class="fa fa-cogs" aria-hidden="true"></i>
+					</button>
+					- Ce bouton charge la page des paramètres et vous permet de changer les paramètres de l'application.
+				</div>
+				<br/>
+				<div>
+					<button class="sidebar-bg-color sidebar-button" disabled>
+						<i class="fa fa-question fa-lg" aria-hidden="true"></i>
+					</button>
+					- Ce bouton charge la page d'aide.
+				</div>
+				<br/>
+				<h5>Dev mode</h5>
+				<br/>
+				<div>
+					<button class="sidebar-bg-color sidebar-button" disabled>
+						<i class="fa fa-book" aria-hidden="true"></i>
+					</button>
+					- Ce bouton affiche la documentation du code source de l'application.
+				</div>
+				<br/>
+				<div>
+					<button class="sidebar-bg-color sidebar-button" disabled>
+						<i class="fa fa-terminal" aria-hidden="true"></i>
+					</button>
+					- Ce bouton affiche les outils du dévloppeur Chrome.
+				</div>
+				<br/>
+				<div>
+					<button class="sidebar-bg-color sidebar-button" disabled>
+						<i class="fa fa-bell" aria-hidden="true"></i>
+					</button>
+					- Ce bouton affiche la liste des notifications.
+				</div>
+				<br/>
+			</div>
+		</div>
+	</body>
+</html>

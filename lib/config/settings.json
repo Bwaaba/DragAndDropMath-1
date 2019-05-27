@@ -1,0 +1,10 @@
+{
+  "color": "linear-gradient(to bottom, #52EDC7, #5AC8FB)",
+  "mathSize": "25px",
+  "autoCloseNotif": true,
+  "notifTimer": 2000,
+  "highlighting": true,
+  "highlightColor": "#5ffe36",
+  "displayTooltip": false,
+  "devmode": true
+}

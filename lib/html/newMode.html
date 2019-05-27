@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			  $('.onglet').click(function(){
+			  $('.onglet').removeClass('actif');
+			  $(this).addClass('actif');
+			  $('.contenu').removeClass('actif');
+			});
+
+			$('#onglet1').click(function(){
+			  $('#contenu1').addClass('actif');
+			});
+
+			$('#onglet2').click(function(){
+			  $('#contenu2').addClass('actif');
+			});
+
+			$('#onglet3').click(function(){
+			  $('#contenu3').addClass('actif');
+			});
+		</script>
+
+	</head>
+	<body>
+			<!-- Titre -->
+			<div class="page-header">
+				<h1 class="display-2"><i aria-hidden="true"></i> Mode professionel</h1>
+				<hr/>
+			
+			</div>
+
+			
+		    <h2>  Parametrer le mode de calcul</h2>
+			
+			
+
+			<div class="onglets">
+			  <div class="onglet actif" id="onglet1">Language</div>
+			  <div class="onglet" id="onglet2">Regle</div>
+			  <div class="onglet" id="onglet3">Calcul</div>
+			</div>
+
+			<div class="contenu" id="contenu1">
+			  <h3>Definition du Language</h3>
+			  <div class="Bouton" onclick=" ">Langage naturel</div>
+			  <div class="Bouton" onclick=" ">Langage boolean</div>
+				
+			  
+			</div>
+
+			<div class="contenu" id="contenu2">
+			  <h3>Definition des régles applicables</h3>
+			  
+			</div>
+
+			<div class="contenu" id="contenu3">
+			
+			  
+			</div>
+
+			<div class="col-md-6 col-sm-6">
+				
+			</div>
+			
+	</body>
+</html>
